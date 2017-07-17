@@ -6,7 +6,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
-import { UserDetailComponent } from './user/user-detail/user-detail.component';
 import { UserDetailsComponent } from './user/user-details/user-details.component';
 import { UserListComponent } from './user/user-list/user-list.component';
 import { UserNewComponent } from './user/user-new/user-new.component';
@@ -16,7 +15,6 @@ import { UserEditComponent } from './user/user-edit/user-edit.component';
   declarations: [
     AppComponent,
     UserComponent,
-    UserDetailComponent,
     UserDetailsComponent,
     UserListComponent,
     UserNewComponent,
