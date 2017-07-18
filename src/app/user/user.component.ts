@@ -20,6 +20,15 @@ export class UserComponent implements OnInit {
     // this.getUsers();
   }
 
+  create(user: User) {
+    this.users.push(user);
+  }
+
+  destroy(user: User) {
+    const i = this.users.indexOf(user);
+    this.users.splice(i, 1);
+  }
+
   getUsers() {
     // this._userService.getUsers()
     // .then(users => this.users = users)
